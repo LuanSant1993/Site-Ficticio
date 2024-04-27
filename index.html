@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Weapons Shop</title>
+</head>
+
+<body>
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="assets/images/logo.png" alt="Logotipo Loja de Armas">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Sobre Nós</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#catalogo">Produtos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#local">Local</a>
+                    </li>
+
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Carousel -->
+        <header id="carousel-weapon" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://images.contentstack.io/v3/assets/bltb61dcb3c40854cd9/blt12959972c62ec3ae/64637cc10830e25f48ed1515/performance-center-10mm.png"
+                        class="d-block w-100" alt="Weapons">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.unsplash.com/photo-1595590424283-b8f17842773f?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        class="d-block w-100" alt="Weapons">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.unsplash.com/photo-1623998021736-282f53c4fc07?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        class="d-block w-100" alt="Weapons">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.unsplash.com/photo-1615226661904-a5ea74800579?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        class="d-block w-100" alt="Weapons">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel-weapon" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel-weapon" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel-weapon" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </header>
+
+        <!-- Quote -->
+
+        <figure>
+            <blockquote class="blockquote">
+                <h3 class="fw-lighter text-center fst-italic mt-4">
+                    "Podem tirar nossas vidas, mas nunca poderão tirar nossa liberdade!".
+                </h3>
+            </blockquote>
+            <figcaption class="blockquote-footer text-center">
+                <cite title="Source Title">William Wallace</cite>
+            </figcaption>
+        </figure>
+
+        <!-- About Cards -->
+
+        <section id="about" class="container mt-5">
+            <div class="row">
+                <div class="col">
+                    <div class="card mb-3">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="https://plus.unsplash.com/premium_photo-1661890797895-33ad1b46ee5f?q=80&w=1673&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                    class="img-fluid rounded-start" alt="Um Casal de Avós com Rifle">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title mb-3">Somos Apaixonados por Armas</h5>
+                                    <h6 class="card-subtitle text-muted mb-4">"Lutamos juntos, Atiramos juntos, Amamos
+                                        para
+                                        sempre."</h6>
+                                    <p class="card-text">"Compartilhamos não apenas uma paixão por armas, mas também uma
+                                        vida repleta de amor e aventuras balizadas por cada disparo de coragem e cada
+                                        momento juntos."</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-3">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="https://plus.unsplash.com/premium_photo-1681843719075-5208e269f08d?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                    class="img-fluid rounded-start"
+                                    alt="Na trilha do silêncio, o caçador encontra sua verdadeira melodia.">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title mb-3">
+
+                                        "Nas pegadas da natureza, o caçador encontra sua história."</h5>
+                                    <h6 class="card-subtitle text-muted mb-3">"Na trilha do silêncio, o caçador encontra
+                                        sua
+                                        verdadeira melodia."</h6>
+                                    <p class="card-text">
+                                        "Entre folhagens e sombras, o caçador desvenda sua essência, onde o silêncio
+                                        revela
+                                        a autêntica melodia de sua alma na natureza selvagem."</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Catálogo -->
+
+        <section id="catalogo" class="container mt-5 mb-5">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="revolveres" data-bs-toggle="tab"
+                        data-bs-target="#revolveres-pane" type="button" role="tab" aria-controls="revolveres-pane"
+                        aria-selected="true">Revólveres</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pistolas-tab" data-bs-toggle="tab" data-bs-target="#pistolas-tab-pane"
+                        type="button" role="tab" aria-controls="pistolas-tab-pane"
+                        aria-selected="false">Pistolas</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="armaslongas-tab" data-bs-toggle="tab"
+                        data-bs-target="#armaslongas-tab-pane" type="button" role="tab"
+                        aria-controls="armaslongas-tab-pane" aria-selected="false">Armas Longas</button>
+                </li>
+
+            </ul>
+            <div class="tab-content" id="revolveresTabContent">
+                <div class="tab-pane fade show active" id="revolveres-pane" role="tabpanel"
+                    aria-labelledby="revolveres-tab" tabindex="0">
+                    <!-- Cards Revólveres !-->
+                    <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+                        <div class="col">
+                            <div class="card">
+                                <img src="assets/images/357.png" class="card-img-top"
+                                    alt="Pistola Glock G17 Gen3 Cal. 9mm Cano 114mm">
+                                <div class="card-body">
+                                    <h5 class="card-title"> Revólver Taurus 357H PRETO FOSCO 8,3"</h5>
+                                    <p class="card-text mt-3">
+                                        <br><br>
+                                        Valor: <span class="price">R$8.260,00</span>
+                                        <button class="buy" onclick="openWhatsApp()">Comprar</button>
+
+                                        <script>
+                                            function openWhatsApp() {
+                                                window.open('https://wa.me/5547996595349', '_blank');
+                                            }
+                                        </script>
+                                        <hr>
+                                        O Revólver Taurus 357H PRETO FOSCO, com um cano de 8,3 polegadas e capacidade
+                                        para 7 tiros, é uma escolha robusta e poderosa para entusiastas de armas e
+                                        atiradores exigentes. Com seu design preto fosco e características avançadas,
+                                        este revólver oferece desempenho excepcional e confiabilidade. <br><br>
+
+                                        <b>Características Principais:</b> <br><br>
+
+                                        <b>Calibre 357 Magnum:</b> Reconhecido por seu poder de fogo impressionante, o
+                                        calibre Magnum 357 é uma escolha preferida para situações que exigem parada
+                                        rápida e eficaz. <br><br>
+
+                                        <b>Design PRETO FOSCO:</b> O acabamento preto fosco confere ao revólver uma
+                                        estética moderna e discreta, além de fornecer proteção adicional contra
+                                        reflexos. <br><br>
+
+                                        <b>Cano de 8,3 polegadas:</b> O cano longo contribui para uma maior precisão no
+                                        disparo, tornando-o adequado para atividades de tiro de longa distância.
+                                        <br><br>
+
+                                        <b>Capacidade para 7 Tiros:</b> Com uma capacidade de 7 tiros, o Taurus 357H
+                                        oferece uma reserva confiável de munição. <br><br>
+
+                                        <b>Confiabilidade Taurus:</b> A reputação da Taurus pela confiabilidade é
+                                        amplamente reconhecida, garantindo um funcionamento suave e consistente em
+                                        diversas condições. <br><br>
+
+                                        <b>Segurança e Ergonomia:</b> Equipado com características de segurança
+                                        modernas, o Taurus 357H PRETO FOSCO oferece uma empunhadura confortável e
+                                        controle excepcional. <br><br>
+
+                                        <b>Ideal para:</b> <br><br>
+
+                                        Atiradores Experientes <br>
+                                        Defesa Pessoal <br>
+                                        Colecionadores de Armas <br><br>
+
+                                        <strong>Observação:</strong> Certifique-se de cumprir todas as leis e
+                                        regulamentos locais ao adquirir e utilizar armas de fogo. O manuseio responsável
+                                        é fundamental para a segurança.
+
+                                    </p>
+
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="assets/images/38.png" class="card-img-top" alt="Smith & Wesson Model 686">
+                                <div class="card-body">
+                                    <h5 class="card-title"> Smith & Wesson Model 686</h5>
+                                    <p class="card-text mt-5">
+                                    <p>
+                                        Valor: <span class="price">R$28.500,00</span>
+                                        <button class="buy" onclick="openWhatsApp()">Comprar</button>
+                                        <script>
+                                            function openWhatsApp() {
+                                                window.open('https://wa.me/5547996595349', '_blank');
+                                            }
+                                        </script>
+                                        <hr>
+                                        O Revólver Smith & Wesson Model 686, alimentado pelo calibre .357 Magnum /
+                                        <br><br>
+
+                                        <b>Características Principais:</b> <br><br>
+
+                                        <b>Calibres .357 Magnum</b> Reconhecidos por seu poder de fogo versátil<br><br>
+
+                                        <b>Design Durável:</b> Construído com a qualidade lendária da Smith & Wesson, o
+                                        Model 686 apresenta um design durável e resistente para garantir um desempenho
+                                        consistente ao longo do tempo. <br><br>
+
+                                        <b>Cano:</b> O comprimento do cano oferece um equilíbrio ideal entre precisão e
+                                        manuseio, proporcionando uma experiência de tiro envolvente e controlada.
+                                        <br><br>
+
+                                        <b>Capacidade para 6 Tiros:</b> Com uma capacidade de 6 tiros, o Model 686
+                                        oferece uma combinação de poder de fogo e capacidade de manobra adequada para
+                                        diversas situações. <br><br>
+
+                                        <b>Segurança e Ergonomia:</b> Equipado com características de segurança modernas
+                                        e um design ergonômico, o Smith & Wesson Model 686 oferece uma empunhadura
+                                        confortável e controle excepcional. <br><br>
+
+                                        <b>Ideal para:</b> <br><br>
+
+                                        Atiradores Experientes <br>
+                                        Prática de Tiro <br>
+                                        Uso Profissional e Defensivo <br><br>
+
+                                        <strong>Observação:</strong> Certifique-se de cumprir todas as leis e
+                                        regulamentos locais ao adquirir e utilizar armas de fogo. O manuseio responsável
+                                        é fundamental para a segurança.
+
+                                    </p>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="assets/images/22.jpg" class="card-img-top" alt="Revólver Taurus RT 941">
+                                <div class="card-body">
+                                    <h5 class="card-title">Revólver Taurus RT 941 </h5>
+                                    <p class="card-text">
+                                    <p>
+                                        Valor: <span class="price">R$ 7.060,22</span>
+                                        <button class="buy" onclick="openWhatsApp()">Comprar</button>
+                                        <script>
+                                            function openWhatsApp() {
+                                                window.open('https://wa.me/5547996595349', '_blank');
+                                            }
+                                        </script>
+                                        <hr>
+                                        O Revólver Taurus RT 941, alimentado pelo calibre .22 Magnum, destaca-se como
+                                        uma opção confiável e versátil para atiradores que buscam desempenho e precisão.
+                                        <br><br>
+
+                                        <b>Características Principais:</b> <br><br>
+
+                                        <b>Calibre .22 Magnum:</b> Conhecido por sua precisão e baixo recuo, o calibre
+                                        .22 Magnum torna o RT 941 uma escolha excelente para prática de tiro e
+                                        atividades recreativas. <br><br>
+
+                                        <b>Material Inox:</b> Com acabamento em aço inoxidável, o revólver apresenta
+                                        durabilidade e resistência à corrosão, garantindo uma longa vida útil e uma
+                                        estética elegante. <br><br>
+
+                                        <b>Cano de 4 polegadas:</b> O comprimento do cano proporciona um equilíbrio
+                                        ideal entre precisão e facilidade de manuseio, sendo adequado para diversas
+                                        atividades de tiro. <br><br>
+
+                                        <b>Capacidade para 8 Tiros:</b> Com uma generosa capacidade de 8 tiros, o RT 941
+                                        oferece uma reserva confiável de munição para diversas situações. <br><br>
+
+                                        <b>Segurança e Ergonomia:</b> Equipado com características de segurança modernas
+                                        e um design ergonômico, o Taurus RT 941 proporciona uma empunhadura confortável
+                                        e controle excepcional. <br><br>
+
+                                        <b>Ideal para:</b> <br><br>
+
+                                        Prática de Tiro Recreativa <br>
+                                        Atiradores Iniciantes e Intermediários <br>
+                                        Uso como Arma de Backup <br><br>
+
+                                        <strong>Observação:</strong> Certifique-se de cumprir todas as leis e
+                                        regulamentos locais ao adquirir e utilizar armas de fogo. O manuseio responsável
+                                        é fundamental para a segurança.
+                                    </p>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="pistolas-tab-pane" role="tabpanel" aria-labelledby="pistolas-tab"
+                    tabindex="0">
+                    <!--Pistolas !-->
+                    <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+                        <div class="col">
+                            <div class="card">
+                                <img src="assets/images/G17-1.png" class="card-img-top"
+                                    alt="Pistola Glock G17 Gen3 Cal. 9mm Cano 114mm">
+                                <div class="card-body">
+                                    <h5 class="card-title">Pistola Glock G17 Gen3 Cal. 9mm Cano 114mm</h5>
+                                    <p class="card-text mt-3">
+                                        <br><br>
+                                        Valor : <span class="price">R$11.000,00</span>
+
+                                        <button class="buy" onclick="openWhatsApp()">Comprar</button>
+
+                                        <script>
+                                            function openWhatsApp() {
+                                                window.open('https://wa.me/5547996595349', '_blank');
+                                            }
+                                        </script>
+
+                                        <hr>
+                                        A Pistola Glock G17 Gen3 é uma escolha confiável e precisa para entusiastas de
+                                        armas e profissionais de segurança. Com sua capacidade de calibre 9mm e um cano
+                                        de 114mm, esta pistola oferece um desempenho excepcional em termos de precisão e
+                                        manejo. <br><br>
+
+                                        <b>Características Principais:</b> <br><br>
+
+                                        <b>Gen3:</b> A terceira geração da Glock G17 incorpora melhorias ergonômicas e
+                                        de
+                                        desempenho, proporcionando uma experiência de tiro aprimorada. <br><br>
+
+                                        <b>Calibre 9mm:</b> Reconhecido por sua eficácia e versatilidade, o calibre 9mm
+                                        oferece
+                                        um equilíbrio notável entre poder de parada e controle de recuo. <br><br>
+
+                                        <b>Cano de 114mm:</b> O cano alongado contribui para uma maior precisão no
+                                        disparo,
+                                        tornando-a uma escolha ideal para competições ou situações táticas. <br><br>
+
+                                        <b>Confiabilidade Glock:</b> A reputação da Glock pela confiabilidade é
+                                        amplamente
+                                        reconhecida, garantindo um funcionamento suave e consistente em diversas
+                                        condições. <br><br>
+
+                                        <b>Segurança e Ergonomia:</b> Equipada com características de segurança
+                                        avançadas, a
+                                        Glock G17 Gen3 oferece uma empunhadura ergonômica, tornando-a confortável e
+                                        fácil de manusear. <br><br>
+
+                                        <b>Ideal para:</b> <br><br>
+
+                                        Atiradores Esportivos <br>
+                                        Profissionais de Segurança <br>
+                                        Entusiastas de Armas <br><br>
+                                        <strong>Observação:</strong> Certifique-se de cumprir todas as leis e
+                                        regulamentos locais ao
+                                        adquirir e utilizar armas de fogo. O manuseio responsável é fundamental para a
+                                        segurança.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="assets/images/Tauros-92.png" class="card-img-top"
+                                    alt="Pistola Taurus 92 Inox 9mm">
+                                <div class="card-body">
+                                    <h5 class="card-title">Pistola Taurus 92 Inox 9mm</h5>
+                                    <p class="card-text">
+                                        <br><br>
+                                        Valor: <span class="price"> R$7.550,00</span>
+
+
+                                        <button class="buy" onclick="openWhatsApp()">Comprar</button>
+
+                                        <script>
+                                            function openWhatsApp() {
+                                                window.open('https://wa.me/5547996595349', '_blank');
+                                            }
+                                        </script>
+
+                                        <hr>
+                                        A Pistola Taurus 92 Inox 9mm é uma escolha confiável e precisa para entusiastas
+                                        de armas e profissionais de
+                                        segurança. Com sua capacidade de calibre 9mm e um cano de 127mm, esta pistola
+                                        oferece um
+                                        desempenho excepcional em termos de precisão e manejo. <br><br>
+
+                                        <b>Características Principais:</b> <br><br>
+
+                                        <b>Inox:</b> Aço inoxidável, proporcionando durabilidade e resistência à
+                                        corrosão. <br><br>
+
+                                        <b>Calibre 9mm:</b> Reconhecido por sua eficácia e versatilidade, o calibre 9mm
+                                        oferece um equilíbrio notável
+                                        entre poder de parada e controle de recuo. <br><br>
+
+                                        <b>Cano de 127mm:</b> O cano de comprimento médio contribui para uma maior
+                                        precisão no disparo, tornando-a uma
+                                        escolha ideal para diversas situações. <br><br>
+
+                                        <b>Confiabilidade Taurus:</b> A reputação da Taurus pela confiabilidade é
+                                        amplamente reconhecida, garantindo um
+                                        funcionamento suave e consistente em diversas condições. <br><br>
+
+                                        <b>Segurança e Ergonomia:</b> Equipada com características de segurança
+                                        avançadas, a Taurus 92 Inox 9mm oferece
+                                        uma empunhadura ergonômica, tornando-a confortável e fácil de manusear. <br><br>
+
+                                        <b>Ideal para:</b> <br><br>
+
+                                        Atiradores Esportivos <br>
+                                        Profissionais de Segurança <br>
+                                        Entusiastas de Armas <br><br>
+
+                                        <strong>Observação:</strong> Certifique-se de cumprir todas as leis e
+                                        regulamentos locais ao adquirir e utilizar
+                                        armas de fogo. O manuseio responsável é fundamental para a segurança.
+                                    </p>
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="assets/images/1911.jpg" class="card-img-top"
+                                    alt="Pistola Tanfoglio Witness 1911 - Cal 9mm 5">
+                                <div class="card-body">
+                                    <h5 class="card-title">Pistola Tanfoglio Witness 1911-Cal 9mm 5</h5>
+                                    <p class="card-text"><br><br>
+                                        Valor: <span class="price">R$14.000,00</span>
+
+                                        <button class="buy" onclick="openWhatsApp()">Comprar</button>
+
+                                        <script>
+                                            function openWhatsApp() {
+                                                window.open('https://wa.me/5547996595349', '_blank');
+                                            }
+                                        </script>
+
+                                        <hr>
+                                        A Pistola Tanfoglio Witness 1911-Cal 9mm 5 é uma escolha confiável e precisa
+                                        para entusiastas de armas e profissionais de
+                                        segurança. Com sua capacidade de calibre 9mm e um cano de 5 polegadas (127mm),
+                                        esta pistola oferece um
+                                        desempenho excepcional em termos de precisão e manejo. <br><br>
+
+                                        <b>Características Principais:</b> <br><br>
+
+                                        <b>Design 1911:</b> Inspirada no clássico design da Colt 1911, a Tanfoglio
+                                        Witness 1911 oferece um estilo atemporal
+                                        associado a uma confiabilidade moderna. <br><br>
+
+                                        <b>Calibre 9mm:</b> Reconhecido por sua eficácia e versatilidade, o calibre 9mm
+                                        oferece um equilíbrio notável
+                                        entre poder de parada e controle de recuo. <br><br>
+
+                                        <b>Cano de 5 polegadas (127mm):</b> O cano de comprimento padrão contribui para
+                                        uma maior precisão no disparo,
+                                        tornando-a uma escolha ideal para competições ou situações táticas. <br><br>
+
+                                        <b>Confiabilidade Tanfoglio:</b> A Tanfoglio é conhecida por sua fabricação de
+                                        alta qualidade, garantindo um
+                                        funcionamento suave e consistente em diversas condições. <br><br>
+
+                                        <b>Segurança e Ergonomia:</b> Equipada com características de segurança
+                                        avançadas, a Tanfoglio Witness 1911-Cal 9mm 5 oferece
+                                        uma empunhadura ergonômica, tornando-a confortável e fácil de manusear. <br><br>
+
+                                        <b>Ideal para:</b> <br><br>
+
+                                        Atiradores Esportivos <br>
+                                        Profissionais de Segurança <br>
+                                        Entusiastas de Armas <br><br>
+
+                                        <strong>Observação:</strong> Certifique-se de cumprir todas as leis e
+                                        regulamentos locais ao adquirir e utilizar
+                                        armas de fogo. O manuseio responsável é fundamental para a segurança.
+                                    </p>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Armas Longas -->
+
+                <div class="tab-pane fade" id="armaslongas-tab-pane" role="tabpanel" aria-labelledby="armaslongas-tab"
+                    tabindex="0">
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                        <div class="col">
+                            <div class="card">
+                                <img src="assets/images/1854.jpg" class="card-img-top"
+                                    alt="S&W® MODEL 1854 LIMITED EDITION">
+                                <div class="card-body">
+                                    <h5 class="card-title">S&W® MODEL 1854 LIMITED EDITION</h5>
+                                    <p class="card-text">
+                                    <p>
+                                        Valor: <span class="price">$3499.00</span>
+                                        <button class="buy" onclick="openWhatsApp()">Comprar</button>
+                                        <script>
+                                            function openWhatsApp() {
+                                                window.open('https://wa.me/5547996595349', '_blank');
+                                            }
+                                        </script>
+                                        <hr>
+                                        A S&W® Model 1854 Limited Edition Lever-Action Rifle em calibre .44 Magnum é uma
+                                        obra-prima da engenharia de armas de fogo, oferecendo uma combinação de
+                                        elegância clássica e desempenho potente. <br><br>
+
+                                        <b>Características Principais:</b> <br><br>
+
+                                        <b>Calibre .44 Magnum:</b> Renomado por sua potência, o .44 Magnum é uma escolha
+                                        robusta para caça de médio porte e esportes de tiro de longa distância. <br><br>
+
+                                        <b>Edição Limitada:</b> Como parte da edição limitada, esta carabina apresenta
+                                        acabamentos refinados, gravuras detalhadas e materiais de alta qualidade,
+                                        tornando-a uma peça única e colecionável. <br><br>
+
+                                        <b>Ação de Alavanca:</b> O mecanismo de ação de alavanca proporciona uma
+                                        experiência clássica de tiro, combinando tradição com eficiência. <br><br>
+
+                                        <b>Cano:</b> O cano oferece uma
+                                        excelente precisão, tornando esta carabina adequada para uma variedade de
+                                        atividades, desde caça até competições de tiro. <br><br>
+
+                                        <b>Capacidade para 9 Munições Tiros:</b> Com uma
+                                        capacidade generosa, a Model 1854 garante que você esteja pronto para múltiplos
+                                        disparos antes de recarregar. <br><br>
+
+                                        <b>Segurança e Confiabilidade S&W®:</b> Construída com os padrões de qualidade e
+                                        segurança da Smith & Wesson, esta carabina oferece confiabilidade excepcional em
+                                        qualquer situação. <br><br>
+
+                                        <b>Ideal para:</b> <br><br>
+
+                                        Caça de Médio Porte <br>
+                                        Tiro Esportivo de Longa Distância <br>
+                                        Colecionadores de Edições Limitadas <br><br>
+
+                                        <strong>Observação:</strong> Certifique-se de cumprir todas as leis e
+                                        regulamentos locais ao adquirir e utilizar armas de fogo. O manuseio responsável
+                                        é fundamental para a segurança.
+                                    </p>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="assets/images/espingarda12.jpg" class="card-img-top"
+                                    alt="Espingarda Semi Automática HUGLU XR-7 Cal.12">
+                                <div class="card-body">
+                                    <h5 class="card-title">Espingarda Semi Automática HUGLU XR-7 Cal.12</h5>
+                                    <p class="card-text">
+                                    <p>
+                                        Valor: <span class="price">R$ 12.620,00</span>
+                                        <button class="buy" onclick="openWhatsApp()">Comprar</button>
+                                        <script>
+                                            function openWhatsApp() {
+                                                window.open('https://wa.me/5547996595349', '_blank');
+                                            }
+                                        </script>
+                                        <hr>
+                                        A Espingarda Semi-Automática Charles Daly AR 12S em calibre 12GA é uma escolha
+                                        versátil para atiradores que buscam desempenho confiável e funcionalidade
+                                        avançada. Com um cano de 18.5 polegadas e capacidade para 5 tiros, esta
+                                        espingarda é adequada para diversas aplicações. <br><br>
+
+                                        <b>Características Principais:</b> <br><br>
+
+                                        <b>Calibre 12GA:</b> Reconhecido por sua versatilidade, o calibre 12GA é
+                                        adequado para uma variedade de atividades, desde tiro esportivo até defesa
+                                        pessoal. <br><br>
+
+                                        <b>Funcionamento Semi-Automático:</b> O mecanismo semi-automático oferece uma
+                                        taxa de tiro rápida, permitindo que você mantenha o controle em diferentes
+                                        situações. <br><br>
+
+                                        <b>Cano de 18.5 polegadas:</b> O cano proporciona um equilíbrio entre
+                                        portabilidade e precisão, tornando esta espingarda ideal para uso tático e
+                                        recreativo. <br><br>
+
+                                        <b>Capacidade para 5 Tiros:</b> Com uma capacidade de 5 tiros, a Charles Daly AR
+                                        12S oferece um equilíbrio entre a quantidade de munição disponível e a
+                                        praticidade de recarga. <br><br>
+
+                                        <b>Design Ergonômico:</b> Construída com foco na ergonomia, esta espingarda
+                                        oferece uma empunhadura confortável e controles intuitivos. <br><br>
+
+                                        <b>Ideal para:</b> <br><br>
+
+                                        Tiro Esportivo <br>
+                                        Defesa Pessoal <br>
+                                        Caça Recreativa <br><br>
+
+                                        <strong>Observação:</strong> Certifique-se de cumprir todas as leis e
+                                        regulamentos locais ao adquirir e utilizar armas de fogo. O manuseio responsável
+                                        é fundamental para a segurança.
+                                    </p>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="assets/images/12.jpg" class="card-img-top"
+                                    alt="Espingarda Pump Taurus Calibre 12 ST-12">
+                                <div class="card-body">
+                                    <h5 class="card-title">Espingarda Pump Taurus Calibre 12 ST-12</h5>
+                                    <p class="card-text">
+                                    <p>
+                                        Valor: <span class="price">R$7.999,00</span>
+                                        <button class="buy" onclick="openWhatsApp()">Comprar</button>
+                                        <script>
+                                            function openWhatsApp() {
+                                                window.open('https://wa.me/5547996595349', '_blank');
+                                            }
+                                        </script>
+                                        <hr>
+                                        A Espingarda Pump Taurus ST-12 em calibre 12 é uma escolha robusta para diversas
+                                        aplicações, desde defesa pessoal até atividades de caça. Seu design confiável,
+                                        aliado ao calibre 12GA, proporciona um desempenho poderoso e versátil. <br><br>
+
+                                        <b>Características Principais:</b> <br><br>
+
+                                        <b>Calibre 12GA:</b> Reconhecido por sua potência, o calibre 12GA é adequado
+                                        para situações que demandam alto poder de parada. <br><br>
+
+                                        <b>Mecanismo Pump:</b> O sistema pump confere uma taxa de tiro rápida,
+                                        permitindo recarregar a espingarda de forma eficiente para a próxima ação.
+                                        <br><br>
+
+                                        <b>Capacidade para 7+1 Tiros:</b> A capacidade de
+                                        munição oferece uma reserva confiável para diversas situações. <br><br>
+
+                                        <b>Design Durável:</b> Construída com materiais resistentes, a Taurus ST-12 é
+                                        projetada para suportar condições adversas e garantir durabilidade. <br><br>
+
+                                        <b>Ideal para:</b> <br><br>
+
+                                        Defesa Pessoal <br>
+                                        Caça <br>
+                                        Segurança Residencial <br><br>
+
+                                        <strong>Observação:</strong> Certifique-se de cumprir todas as leis e
+                                        regulamentos locais ao adquirir e utilizar armas de fogo. O manuseio responsável
+                                        é fundamental para a segurança.
+                                    </p>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+        </section>
+
+        <!--Local-->
+
+        <section id="local" class="container text-center mb-5">
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-custom" data-bs-toggle="modal" data-bs-target="#localModal">
+                Quero Conhecer o Top-Gun
+            </button>
+            
+
+            <!-- Modal -->
+            <div class="modal fade" id="localModal" tabindex="-1" aria-labelledby="localModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="localModalLabel">Estamos Te Esperando !</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p><strong>Site Fictício</strong></p>
+                            <iframe style="width: 100%;" height="450" style="border:0" load="lazy" allowfullscreen
+                                src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJrSrlwly22JQRxOut5vUEwC0&key=AIzaSyC96AGMGSxx-AeO27Pq-JREqU2AC-TDV-o"></iframe>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+    <!-- Footer -->
+
+    <footer class="text-center bg-dark p-5 mt-5 text-light">
+        <img width="80" src="assets/images/logo.png" alt="Logotipo Top Gun">
+    
+        <p class="mt-2 mb-0 fw-bold">
+            Top Gun | "Voando alto com estilo e qualidade. sua loja de confiança para armas e acessórios excepcionais." <br><br><hr>
+            <b><u>"Este projeto é parte de um trabalho acadêmico e a Loja Top Gun é fictícia. Não realiza vendas ou operações comerciais reais."</u></b>
+        </p>
+        
+    </p>
+        
+    
+    </footer>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
