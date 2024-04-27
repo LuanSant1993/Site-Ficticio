@@ -2,7 +2,7 @@
 
 Bem-vindo ao repositório do Top-Gun, um projeto fictício de um site para uma loja de armas. Este repositório contém o código-fonte e os recursos necessários para construir e executar o site.
 
-link do Site : https://luasant93.github.io/Projeto-Site-Ficticio/
+link do Site : [Clique Aqui](https://luansant1993.github.io/Site-Ficticio/)
 
 ## Sobre o Projeto
 
